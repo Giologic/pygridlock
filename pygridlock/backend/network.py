@@ -11,7 +11,7 @@ from attr.validators import instance_of
 
 
 @attr.s
-class GTFS(object):
+class Network(object):
     """ GTFS Class
 
         This class is a compiled representation of a transportation network information using stops, routes, trips

@@ -11,9 +11,9 @@ from .base import Layout
 
 class Lattice(Layout):
     
-    def __init__(self, max_nodes, max_walking_dist, start_coords, **kwargs):
+    def __init__(self, max_nodes, max_walking_dist, start_coords):
         """ Initializes Lattice class """
-        super(Lattice, self).__init__()
+        super(Lattice, self).__init__(max_nodes, max_walking_dist, start_coords)
         
         # TODO : Logger
 
